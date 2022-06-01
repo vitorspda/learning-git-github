@@ -1,0 +1,31 @@
+# Learning to add files to the repository
+
+## mkdir
+	make a new folder
+
+## git status
+	give the status of the changes in the repository
+## add
+	use -touch- to create a file (.css, .js, .html)
+		touch index.html
+		touch index.js
+		touch main.css
+	git add index.html  	#<- this add the file to te staging area
+	git rm --cached index.html 	#<- this remove the file from the stagind area
+	git add . 	#<- this add all the files from this ("learning-git" in this case) current directory downwards
+	git rm -r --cached . 	#<- this remove all the files from the staging area
+	
+## git commit
+	is a save point before start implementing new features
+	git commit -m "bootstrap project"	 #<- the message has to be descritive
+	
+## vi
+	you vizualize the file and you can edit it
+
+## git diff
+	shows the diference/chenges in the file
+	
+## git restore <file>
+	discard the changes
+		
+	

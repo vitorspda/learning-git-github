@@ -17,7 +17,8 @@
 	
 ## git commit
 	is a save point before start implementing new features
-	git commit -m "bootstrap project"	 #<- the message has to be descritive
+	git commit -m "bootstrap project"	 #<- the message has to be descritive, -m is message
+	git commit --amend -m changes the message on the commit
 	
 ## vi
 	you vizualize the file and you can edit it
